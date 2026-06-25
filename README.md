@@ -4,4 +4,5 @@
 3. add subscription in v2sub
 4. install proxy.sh
 5. install codex.sh
+
 finally, you can use codex in your machine happily.
