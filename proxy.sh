@@ -8,7 +8,7 @@ SOCKS_PORT="1080"
 PRIVOXY_CONF="/etc/privoxy/config"
 PROXYCHAINS_CONF="$HOME/.proxychains/proxychains.conf"
 
-sudo apt 
+sudo apt update
 sudo apt install -y proxychains4 privoxy
 mkdir -p $HOME/.proxychains
 if [ ! -f "$HOME/.proxychains/proxychains.conf" ]; then
